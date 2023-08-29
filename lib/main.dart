@@ -40,21 +40,17 @@ class MyCard extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Container(
-                color: Colors.white,
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: [
-                    Icon(
+                child: Padding(
+                  padding: const EdgeInsets.all(2.0),
+                  child: ListTile(
+                    leading: Icon(
                       Icons.phone,
                       color: Colors.teal,
                       size: 30,
                     ),
-                    SizedBox(
-                      width: 15,
-                    ),
-                    Text(
+                    title: Text(
                       '+91 97866 64633',
                       style: TextStyle(
                         fontSize: 20.0,
@@ -62,24 +58,20 @@ class MyCard extends StatelessWidget {
                         color: Colors.teal,
                       ),
                     ),
-                  ],
+                  ),
                 ),
               ),
-              Container(
-                color: Colors.white,
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: [
-                    Icon(
+                child: Padding(
+                  padding: const EdgeInsets.all(2.0),
+                  child: ListTile(
+                    leading: Icon(
                       Icons.email,
                       color: Colors.teal,
                       size: 30,
                     ),
-                    SizedBox(
-                      width: 15,
-                    ),
-                    Text(
+                    title: Text(
                       'vijai.ksv@gmail.com',
                       style: TextStyle(
                         fontSize: 20.0,
@@ -87,24 +79,20 @@ class MyCard extends StatelessWidget {
                         color: Colors.teal,
                       ),
                     ),
-                  ],
+                  ),
                 ),
               ),
-              Container(
-                color: Colors.white,
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: [
-                    Icon(
+                child: Padding(
+                  padding: const EdgeInsets.all(2.0),
+                  child: ListTile(
+                    leading: Icon(
                       Icons.location_city,
                       color: Colors.teal,
                       size: 30,
                     ),
-                    SizedBox(
-                      width: 15,
-                    ),
-                    Text(
+                    title: Text(
                       'Perundurai, Erode',
                       style: TextStyle(
                         fontSize: 20.0,
@@ -112,7 +100,7 @@ class MyCard extends StatelessWidget {
                         color: Colors.teal,
                       ),
                     ),
-                  ],
+                  ),
                 ),
               ),
             ],
