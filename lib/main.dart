@@ -34,7 +34,7 @@ class MyCard extends StatelessWidget {
                 'FLUTTER DEVELOPER',
                 style: TextStyle(
                   fontFamily: 'OpenSans',
-                  color: Colors.white,
+                  color: Colors.teal.shade50,
                   fontSize: 12.0,
                 ),
               ),
