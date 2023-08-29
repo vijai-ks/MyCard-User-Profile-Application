@@ -24,9 +24,18 @@ class MyCard extends StatelessWidget {
               Text(
                 'Vijai K S',
                 style: TextStyle(
+                  fontFamily: 'Pacifico',
                   fontSize: 40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'FLUTTER DEVELOPER',
+                style: TextStyle(
+                  fontFamily: 'OpenSans',
+                  color: Colors.white,
+                  fontSize: 12.0,
                 ),
               ),
             ],
