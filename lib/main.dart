@@ -40,6 +40,13 @@ class MyCard extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              SizedBox(
+                height: 20.0,
+                width: 150,
+                child: Divider(
+                  color: Colors.white,
+                ),
+              ),
               Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: Padding(
