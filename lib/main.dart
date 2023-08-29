@@ -11,52 +11,14 @@ class MyCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: Center(
-            child: Text('My Card'),
-          ),
-        ),
-        backgroundColor: Colors.lightBlueAccent,
+        backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                height: double.infinity,
-                width: 100,
-                color: Colors.orangeAccent,
-                child: Center(
-                  child: Text('Container 1'),
-                ),
-              ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.red,
-                    child: Center(
-                      child: Text('Container 2'),
-                    ),
-                  ),
-                  Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.green,
-                    child: Center(
-                      child: Text('Container 2'),
-                    ),
-                  ),
-                ],
-              ),
-              Container(
-                height: double.infinity,
-                width: 100,
-                color: Colors.yellowAccent,
-                child: Center(
-                  child: Text('Container 3'),
-                ),
+              CircleAvatar(
+                radius: 50,
+                backgroundImage: AssetImage('images/profileimage.jpg'),
               ),
             ],
           ),
